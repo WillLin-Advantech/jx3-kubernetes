@@ -12,13 +12,14 @@ spec:
     environmentGitOwner: WillLin-Advantech
     gitKind: github
     gitName: github
-    gitServer: https://github.com
+    gitServer: https://github.com/CoFoundAdv/ProductService.git
     provider: kubernetes
-    registry: ghcr.io
+    registry: eap-cr.advantech.com.tw/test
   environments:
-  - key: dev
-  - key: staging
-  - key: production
+  # - key: dev
+  # - key: staging
+  # - key: production
+  - key: chore/20250627-test-email-notification
   ingress:
     domain: 192.168.49.2
     externalDNS: false
