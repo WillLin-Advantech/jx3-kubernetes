@@ -12,7 +12,7 @@ spec:
     environmentGitOwner: WillLin-Advantech
     gitKind: github
     gitName: github
-    gitServer: https://github.com/CoFoundAdv/ProductService.git
+    gitServer: https://github.com/WillLin-Advantech/jx3-kubernetes.git
     provider: kubernetes
     registry: eap-cr.advantech.com.tw/test
   environments:
