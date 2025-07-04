@@ -6,10 +6,10 @@ spec:
     schedule: ""
   cluster:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
-    clusterName: kind
+    clusterName: minikube
     devEnvApprovers:
-    - todo
-    environmentGitOwner: todo
+    - WillLin-Advantech
+    environmentGitOwner: WillLin-Advantech
     gitKind: github
     gitName: github
     gitServer: https://github.com
@@ -20,14 +20,14 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: 192.168.49.2
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
       production: false
-  repository: bucketrepo
+  repository: eap-cr.advantech.com.tw/test/
   secretStorage: local
   vault: {}
   webhook: lighthouse
